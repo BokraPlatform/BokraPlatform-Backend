@@ -1,4 +1,4 @@
-using Bokra.Core.Entites.Identity;
+using Bokra.Core.Entities.Identity;
 using Bokra.Infrastructure.Data.Configuration;
 using Bokra.Infrastructure.Seeder;
 using Microsoft.AspNetCore.Identity;
@@ -36,7 +36,7 @@ public class Program
             await UserSeeder.SeedAsync(userManager);
         }
         #endregion
-        
+
         app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseAuthentication();
