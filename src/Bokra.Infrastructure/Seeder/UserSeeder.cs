@@ -1,4 +1,4 @@
-﻿using Bokra.Core.Entites.Identity;
+﻿using Bokra.Core.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
